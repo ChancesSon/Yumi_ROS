@@ -1,0 +1,89 @@
+yumi:
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+      
+      
+      
+    joint_1L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_1_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+   
+    joint_2L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_2_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_7L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_7_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_3L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_3_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_4L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_4_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_5L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_5_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_6L_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_6_l
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_gripperL_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_gripper_l_finger_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+      
+      
+    joint_1R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_1_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_2R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_2_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_7R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_7_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_3R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_3_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+    
+    joint_4R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_4_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_5R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_5_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_6R_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_6_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+      
+    joint_gripperR_controller:
+      type: effort_controllers/JointPositionController
+      joint: yumi_joint_gripper_r_finger_r
+      pid: {p: 100.0, i: 0.01, d: 10.0}
+ 
